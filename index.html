@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<style>
+    #maincontainer{
+        /* height: 100px; */
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    .front{
+        /* height: 100px; */
+        width: 100%;
+        /* border: 1px solid green; */
+        margin: auto;
+        display: flex;
+        gap: 1%;
+    }
+    .front .front1{
+        /* height: 100px; */
+        width: 45%;
+        border: 5px solid grey;
+        margin: auto;
+    }
+    .front .front2{
+        height: 200px;
+        width: 45%;
+        border: 10px solid black;
+    }
+    .back{
+        /* height: 100px; */
+        width: 100%;
+        /* border: 1px solid green; */
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        gap: 1%;
+    }
+    .back .back1{
+        /* height: 100px; */
+        width: 45%;
+        border: 5px solid grey;
+        margin: auto;
+    }
+    .back .back2{
+        height: 200px;
+        width: 45%;
+        border: 10px solid black;
+    }
+    .page{
+        /* height: 100px; */
+        width: 100%;
+        /* border: 1px solid green; */
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        gap: 1%;
+    }
+    .page .pages{
+        /* height: 100px; */
+        width: 45%;
+        border: 5px solid grey;
+        margin: auto;
+    }
+</style>
+<body>
+    <div id="maincontainer">
+        <div class="front">
+            <div class="front1">
+                <h2>Book Name :- </h2>
+                <h2>Book Author Name :- </h2>
+                <label for="myfile">Upload Front Cover :- </label>
+                <input type="file" id="myfile" name="myfile">
+            </div>
+            <div class="front2">
+            </div>
+        </div>
+        <div class="back">
+            <div class="back1">
+                <h2>Book Name :- </h2>
+                <h2>Book Author Name :- </h2>
+                <h2>Book Description :- </h2>
+                <label for="myfile">Upload Back Cover :- </label>
+                <input type="file" id="myfile" name="myfile">
+            </div>
+            <div class="back2">
+            </div>
+        </div>
+        <div class="page">
+            <div class="pages">
+
+                <label for="myfile">Upload Book Pages :- </label>
+                <input type="file" id="myfile" name="myfile">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
